@@ -1,0 +1,221 @@
+.App {
+  text-align: center;
+}
+
+.datalist {
+}
+
+.inputCourse {
+  float:left;
+  display: inline-block;
+  min-width:300px;
+  padding: 5px 10px 5px 10px;
+  margin: 5px 5px 5px 5px;
+  font-size: 14px;
+}
+.inputGrade {
+
+  display: inline-block;
+  float: left;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+
+}
+.courseLabel {
+  display: inline-block;
+  padding: 5px 0px;
+  margin:0px 5px;
+}
+
+.courseBarContainer {
+  border-top: 0px rgba(0,0,0,0.4);
+  border-bottom: 0px rgba(0,0,0,0.4);
+  background-color: white;
+  margin: 10px 0;
+  height: auto;
+  padding: 10px;
+  overflow: auto;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+}
+
+.warningBar {
+  border: 1px solid #e3c82d;
+  border-radius: 10px;
+  background-color: #fff6b0;
+  padding: 5px 10px 5px 10px;
+  margin: 0 10px 10px 10px;
+}
+
+.warningBar > p {
+  margin: 0;
+  word-break: break-all;
+  white-space: normal;
+}
+
+.errorBar {
+  border: 1px solid #de2323;
+  border-radius: 10px;
+  background-color: #e36d6d;
+  padding: 5px 10px 5px 10px;
+  margin: 0 10px 10px 10px;
+}
+
+.errorBar > p {
+  margin: 0;
+  word-break: break-all;
+  white-space: normal;
+}
+
+.serverTimeoutBar {
+  border: 1px solid #de701f;
+  border-radius: 10px;
+  background-color: #feae6b;
+  padding: 5px 10px 5px 10px;
+  margin: 0 10px 10px 10px;
+}
+
+.serverTimeoutBar > p {
+  margin: 0;
+  word-break: break-all;
+  white-space: normal;
+}
+
+
+.timeoutBar {
+  border: 1px solid #0394fc;
+  border-radius: 10px;
+  background-color: #abdcff;
+  padding: 5px 10px 5px 10px;
+  margin: 0 10px 10px 10px;
+}
+
+.timeoutBar > p {
+  margin: 0;
+  word-break: break-all;
+  white-space: normal;
+}
+
+.invisible {
+  display:none
+}
+.submitButton {
+  background-color: #4CAF50; /* Green */
+  border-radius: 2px;
+  border: 1px;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.submitGrade {
+  float: left;
+  display: inline-block;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 10px;
+}
+
+.courseTitle {
+  color: black;
+  margin-top: 0;
+  font-family: roboto, serif;
+  font-size: 36px;
+}
+
+.courseDisplay {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: white;
+  margin: 10px 5px;
+  padding: 20px 0;
+  border: 0px rgba(0,0,0,0.4);
+  border-radius: 20px;
+  border-style: solid;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+
+.graphDisplay {
+  padding: 0 15px;
+}
+.displayBodyText {
+  margin: 5px 15px;
+}
+
+.displaySubText {
+  margin: 10px 15px;
+  font-size: 12.5px;
+  text-transform: uppercase;
+  color: #69412a;
+}
+
+.courseDisplayWrapperEmpty {
+  margin: 10px 5px;
+  border: 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+  border-radius: 10px;
+  background-color: white;
+  text-align: left;
+  min-height: 100%;
+  padding: 20px;
+}
+
+.gradeDiv {
+  width: 120px;
+}
+
+.cdOriginCourseName {
+  color: #4b86b4;
+}
+
+.cdCourseMean {
+  color: #2a4d69;
+  font-weight: bold;
+}
+
+.cdPercentile {
+  color: #2a4d69;
+  font-weight: bold;
+}
+
+.cdGreaterThan {
+  color: #2a4d69;
+  font-weight: bold;
+}
+
+.cdStDev {
+  color: #2a4d69;
+  font-weight: bold;
+}
+
+.cdStat {
+  color: #2a4d69;
+  font-weight: bold;
+}
+
+.cdDestCourseName {
+  color: #4b86b4;
+}
+
+.loadingDisplay {
+  margin: 30px 15px;
+}
+
+.loadingDisplay > p {
+  font-size: 20px;
+  color: #2a4d69;
+}
+
+.emptyBodyText {
+  line-height: 25px;
+}
+
+.noServerResponse {
+  display: inline-block;
+  float: left;
+  margin: 19px 0;
+}
+
+.noServerResponse > p {
+  margin: 0;
+  color: #de701f;
+}
